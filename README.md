@@ -1,10 +1,10 @@
 # RUTlib-py
 
 <p align="center">
-  <img src="https://github.com/RUTlib/rutlib-py/blob/main/images/rutpylib_logo.png?raw=true" alt="RUTpylib's python library logo"/>
+  <img src="https://github.com/RUTlib/rutlib-py/blob/main/images/RUTlib_logo.png?raw=true" alt="RUTlib's python library logo"/>
 </p>
 
-[![PyPI version](https://img.shields.io/pypi/v/rutpylib?logo=python&style=for-the-badge)](https://pypi.org/project/rutpylib/)
+[![PyPI version](https://img.shields.io/pypi/v/RUTlib?logo=python&style=for-the-badge)](https://pypi.org/project/RUTlib/)
 [![GitHub license](https://img.shields.io/github/license/RUTlib/rutlib-py?logo=python&style=for-the-badge)](https://github.com/RUTlib/rutlib-py/blob/main/LICENSE.md)
 
 <!--
@@ -16,7 +16,7 @@ A Python library for parsing, validating, manipulating, generating, and formatti
 ## Quick Installation
 
 ```bash
-pip install rutpylib
+pip install RUTlib
 ```
 
 The module exports the following functions:
@@ -34,7 +34,7 @@ The module exports the following functions:
 This function takes a RUT as a string and removes all non-numeric characters, and transforms the input to uppercase.
 
 ```python
-from rutpylib import clean_rut
+from RUTlib import clean_rut
 
 print(clean_rut('1.234-3'))  # 12343
 print(clean_rut('1234-3'))   # 12343
@@ -46,7 +46,7 @@ print(clean_rut('12343'))    # 12343
 This function checks whether a RUT is valid according to the RUT verification rules.
 
 ```python
-from rutpylib import validate_rut
+from RUTlib import validate_rut
 
 print(validate_rut('1.234-3'))  # True
 print(validate_rut('1234-3'))   # True
@@ -59,7 +59,7 @@ print(validate_rut('1.234-0'))  # False
 This function calculates the verification digit of a RUT.
 
 ```python
-from rutpylib import get_last_digit_of_rut
+from RUTlib import get_last_digit_of_rut
 
 print(get_last_digit_of_rut(1234))  # 3
 print(get_last_digit_of_rut(1235))  # 1
@@ -70,7 +70,7 @@ print(get_last_digit_of_rut(1235))  # 1
 This function formats a RUT according to RUT conventions.
 
 ```python
-from rutpylib import format_rut
+from RUTlib import format_rut
 
 print(format_rut('12343'))       # 1.234-3
 print(format_rut('12343', False)) # 1234-3
@@ -81,7 +81,7 @@ print(format_rut('12343', False)) # 1234-3
 This function generates a valid RUT randomly.
 
 ```python
-from rutpylib import generate_rut
+from RUTlib import generate_rut
 
 print(generate_rut())          # Example: 12.345.678-5 (random)
 print(generate_rut(7, False))  # Example: 1234567-5 (random)
