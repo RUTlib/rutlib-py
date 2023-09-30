@@ -1,7 +1,7 @@
 # RUTlib-py
 
 <p align="center">
-  <img src="https://github.com/RUTlib/rutlib-py/blob/main/images/RUTlib_logo.png?raw=true" alt="RUTlib's python library logo"/>
+  <img src="https://github.com/RUTlib/rutlib-py/blob/main/images/rutpylib_logo.png?raw=true" alt="RUTlib's python library logo"/>
 </p>
 
 [![PyPI version](https://img.shields.io/pypi/v/RUTlib?logo=python&style=for-the-badge)](https://pypi.org/project/RUTlib/)
@@ -103,4 +103,4 @@ For more information about the RUT, consult the following link: [RUT (Chile)](ht
 
 ---
 
-Version 0.1.1
+Version 0.1.3
