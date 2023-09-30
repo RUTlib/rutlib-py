@@ -103,4 +103,4 @@ For more information about the RUT, consult the following link: [RUT (Chile)](ht
 
 ---
 
-Version 1.0.0
+Version 0.1.1

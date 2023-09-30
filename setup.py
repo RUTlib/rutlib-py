@@ -9,8 +9,8 @@ classifiers = [
 ]
 
 setup(
-    name="rut",
-    version="0.1.0",
+    name="RUTlib",
+    version="0.1.1",
     description="A library to handle and validate Chilean RUT",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
