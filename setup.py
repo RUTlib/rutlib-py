@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
     name="RUTlib",
-    version="0.1.1",
+    version="0.1.2",
     description="A library to handle and validate Chilean RUT",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
